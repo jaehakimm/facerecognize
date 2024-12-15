@@ -5,4 +5,3 @@ face_recognition
 opencv-python
 numpy
 scikit-learn
-openai==0.28

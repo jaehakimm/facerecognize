@@ -24,9 +24,6 @@ WORKDIR /app
 # Copy project files
 COPY . .
 
-# Copy .env file
-COPY .env .env
-
 # Install Python dependencies
 RUN pip install -r requirements.txt
 
